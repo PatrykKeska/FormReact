@@ -1,0 +1,103 @@
+body,
+.root,
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding-top: 10vh;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  height: 80vh;
+  width: 90vw;
+  max-width: 600px;
+
+}
+
+.App {
+  position: relative;
+  background-color: royalblue;
+  border-radius: 20px;
+  padding: 10vw 10vw 10vw 5vw;
+
+
+}
+
+label {
+  color: orange;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  margin: 1vw;
+}
+
+input {
+  margin: 2vh;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(171, 236, 21, 0.5);
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+
+}
+
+
+span {
+  color: red;
+  font-weight: bold;
+  margin-top: 5vh;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  border: 2px solid orange;
+  background-color: transparent;
+}
+
+input[name="checked"] {
+  width: 10%;
+}
+
+
+.successForm {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  padding: 10vw;
+  border-radius: 20px;
+  transition: all .3s linear;
+  transform: scale(1);
+}
+
+
+
+.successForm h1 {
+  padding-top: 10vh;
+  color: white;
+  text-transform: capitalize;
+}
